@@ -11,3 +11,4 @@ def show_katalog(request):
 }
     return render(request, "katalog.html", context)
 
+
