@@ -37,10 +37,10 @@
         "pk":4,
         "fields":{
             "watched":"Watched",
-            "title":"The Batman",
-            "rating": "5",
-            "release_date": "Februari 2022",
-            "review": "Film batman terbaik (debatable). Cinematografi terbaiik dan sound terbaik."
+            "title":"The Platform",
+            "rating": "3",
+            "release_date": "8 November 2019",
+            "review": "Filmnya bikin mikir banget sih."
         }
     },
     {
