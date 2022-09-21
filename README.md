@@ -1,9 +1,33 @@
-# Tugas 2 PBP 
-Link app: https://tugas2pbp-joan.herokuapp.com/katalog/
-
 Joan Isva Shanti Andrea
 2106707712
 PBP E
+
+# Tugas 3 PBP 
+Link app: https://tugas2pbp-joan.herokuapp.com/mywatchlist/
+1. Jelaskan perbedaan antara JSON, XML, dan HTML!
+
+JSON
+
+JSON atau JavaScript Object Notation adalah format pertukaran data yang digunakan untuk merepresentasikan data yang terstruktur dalam format yang dapat dibaca oleh manusia. JSON bersifat self-describing sehingga sangat mudah untuk dipahami. JSON menggunakan teks dan tipe data numerik untuk merepresentasikan objek. JSON dibuat berdasarkan pada sintaks objek JavaScript dan bahasa JavaScript. Syntax dari JSON jauh lebih ringan dibandingkan dengan XML, contoh dari perbedaan syntaxnya adalah tidak adanya start/end tags yang diperlukan di XML dan HTML. JSON berorientasi pada data yang menyebabkan sedikitnya redundansi yang ada saat menggunakan JSON untuk pertukaran data. JSON mendukung beberapa tipe data, yaitu string, integer, array, dan objek. JSON hanya mendukung UTF-8 encoding dan tidak mendukung objek yang bersifat _native._ JSON dianggap sebagai format yang lebih cocok untuk pertukaran data antara aplikasi web karena fleksibilitas yang dimiliki. 
+
+XML
+
+XML atau Extensive Markup Language adalah format data berbasis teks yang berasal dari SGML (ISO 8879) dan ditulis dengan cara yang sama dengan HTML. XML bersifat self-descriptive sehingga dapat langsung terbaca data yang dikirimkan. XML adalah versi sederhana dari SGML yang digunakan untuk menyimpan dan mewakili data terstruktur dalam format yang dapat dibaca oleh mesin dan dapat dibaca manusia. XML berorientasi pada dokumen dibandingkan dengan JSON yang berorientasi pada data. XML memiliki syntax yang lebih berat dan kompleks dibandingkan dengan JSON karena membutuhkan karakter yang lebih banyak untuk merepresentasikan data yang sama. XML mendukung numerik, teks, gambar, graf, dll tetapi tidak mendukung array layaknya JSON. 
+
+HTML
+
+HTML atau Hypertext Markup Language adalah format yanag membuat data lebih interaktif dengan berbagai fitur pemformatan. HTML berorientasi pada tampilan data sehingga HTML lebih fokus kepada tampilan dari data tersebut dibandingkan dengan XML dan JSON yang fokus pada pertukaran data.
+
+
+3. Jelaskan mengapa kita memerlukan data delivery dalam pengimplementasian sebuah platform?
+
+
+4. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+
+Saya memulai aplikasi baru bernama mywatchlist dengan command 'startapp' pada terminal. Kemudian, saya 'mywatchlist' pada settings.py pada folder project_django ke dalam variable 'INSTALLED_APPS' dan juga membuat kelas 'MyWatchList' pada models.py yang berisikan atribut yang akan dimiliki oleh setiap filmnya. Kemudian, saya juga melakukan migrasi untuk menerapkan skema model yang telah dibuat ke dalam database Django lokal. Setelah itu, saya membuat file json bernama initial_mywatchlist_data.json dan menuliskan semua film sebagai data yang akan ditampilkan nantinya. Untuk mengimplementasikan sebuah fitur dalam 3 format. Saya membuat beberapa fungsi (show_html, show_json, show_json_by_id, show_xml, show_xml_by_id) yang akan menampilkan data mywatchlist pada file views.py dan tidak lupa saya menuliskan path pada urlpatterns di file urls.py untuk setiap formatnya untuk melakukan routing. Kemudian, saya melakukan deployment ke heroku. Untuk mengakses URL menggunakan postman, saya menuliskan link url yang terdapat pada soal menggunakan "GET" dan mengirimkan request. Kemudian, saya membuat unit test pada test.py untuk menguji ketiga URL tersebut. 
+
+# Tugas 2 PBP 
+Link app: https://tugas2pbp-joan.herokuapp.com/katalog/
 
 1. Buatlah bagan yang berisi request client ke web aplikasi berbasis Django beserta responnya dan jelaskan pada bagan tersebut kaitan antara urls.py, views.py, models.py, dan berkas html
 <img width="718" alt="Screen Shot 2022-09-15 at 09 35 21" src="https://user-images.githubusercontent.com/101711787/190300191-0918f1cc-564e-4787-a78f-62589b9840fe.png">
