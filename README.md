@@ -20,6 +20,7 @@ HTML atau Hypertext Markup Language adalah format yanag membuat data lebih inter
 
 
 3. Jelaskan mengapa kita memerlukan data delivery dalam pengimplementasian sebuah platform?
+
 Saat kita mengembangkan suatu platform, maka ada saatnya dimana kita akan perlu untuk mengirimkan data dari satu stack ke stack lainnya. Bentuk dari data yang dikirimkan dapat bermacam-macam. Disinilah data delivery memainkan peran yang besar. Data delivery membantu kita untuk mengirimkan data-data tersebut. Terdapat beberapa contoh format data yang umum digunakan antara lain HTML, XML, dan JSON. 
 
 4. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
