@@ -27,6 +27,11 @@ Saat kita mengembangkan suatu platform, maka ada saatnya dimana kita akan perlu 
 
 Saya memulai aplikasi baru bernama mywatchlist dengan command 'startapp' pada terminal. Kemudian, saya 'mywatchlist' pada settings.py pada folder project_django ke dalam variable 'INSTALLED_APPS' dan juga membuat kelas 'MyWatchList' pada models.py yang berisikan atribut yang akan dimiliki oleh setiap filmnya. Kemudian, saya juga melakukan migrasi untuk menerapkan skema model yang telah dibuat ke dalam database Django lokal. Setelah itu, saya membuat file json bernama initial_mywatchlist_data.json dan menuliskan semua film sebagai data yang akan ditampilkan nantinya. Untuk mengimplementasikan sebuah fitur dalam 3 format. Saya membuat beberapa fungsi (show_html, show_json, show_json_by_id, show_xml, show_xml_by_id) yang akan menampilkan data mywatchlist pada file views.py dan tidak lupa saya menuliskan path pada urlpatterns di file urls.py untuk setiap formatnya untuk melakukan routing. Kemudian, saya melakukan deployment ke heroku. Untuk mengakses URL menggunakan postman, saya menuliskan link url yang terdapat pada soal menggunakan "GET" dan mengirimkan request. Kemudian, saya membuat unit test pada test.py untuk menguji ketiga URL tersebut. 
 
+<img width="898" alt="Screen Shot 2022-09-21 at 21 40 59" src="https://user-images.githubusercontent.com/101711787/191656953-6e0ead63-f47a-40d7-a6af-005f522b4266.png">
+<img width="898" alt="Screen Shot 2022-09-21 at 21 40 47" src="https://user-images.githubusercontent.com/101711787/191656978-3618ca55-66b5-47cd-9a9a-1096f7227476.png">
+<img width="902" alt="Screen Shot 2022-09-21 at 21 40 36" src="https://user-images.githubusercontent.com/101711787/191657003-6f22a282-33cc-45bc-9a62-aaa8eeb9e4d1.png">
+
+
 # Tugas 2 PBP 
 Link app: https://tugas2pbp-joan.herokuapp.com/katalog/
 
